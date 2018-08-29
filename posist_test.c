@@ -10,6 +10,16 @@ char* T()
    	return (&t);  
 }
 
+struct node *treeSum(struct node *c,int sum)
+{
+		/*THIS FUNCTIN WILL WORK ON TREE LOGIC. 
+			USING THE CHILD REFERENCE NODE ID IT WILL FIND OUT 
+			IF THE SUM OF ALL THE NODES BELOW IT DONT HAVE VALUE MORE THAN VLAUE OF THE PARENT NODE.
+			IF THE SUM COMES TO GE GREATER THAN THAT THEN IT CREATES A NEW GENESIS NODE AND A NORMAL NODE THEN ATTACHES THEM TOGETHER
+			AND RETURNS THE NORMAL NODE 
+		*/
+}
+
 void checksum(struct node *n,struct genesisNode *g)
 {
 	if(n.genesisReferenceNodeID == Null)
